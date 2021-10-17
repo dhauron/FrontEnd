@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="Locadora Popular">
+    <title>Locadora Popular</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body style="background-color:rgba(0, 0, 0, 0.87); color: blanchedalmond; ">
+    <font face="Broadway"> 
+    <center>
+        <h1>LOCADORA POPULAR</h1>
+    </center>
+    </font> <br />
+    <h2>Cadastar filme</h2>
+    <form action="" method="get">
+        <div>
+          <label for="input-texto">Título do filme</label>
+          <input type="text" id="input-texto" placeholder="Digite o título do filme" />
+        </div>
+        <br>
+        <div>
+          <label for="input-number">Ano de lançamento</label>
+          <input type="number" id="input-number" placeholder="Digite o ano de lançamento" min="1920" max="2021"/>
+        </div>
+        <br>
+        <div>
+          <label for="input-texto">Sinopse do filme</label>
+          <input type="text" id="input-texto" placeholder="Digite a sinopse" />  
+        </div>
+        <br>
+        <div>
+          <label for="input-file">Insira a capa do filme</label>
+          <input type="file" id="input-file" name="Insira a capa"/>
+          <br>
+          <br>
+          <input type="submit" value="Cadastrar" />
+        </div>
+        </form>
+        <h2>Filmes cadastrados</h2>
+        <table border="3">
+            <thead>
+              <tr>
+                <th>Título</th>
+                <th>Ano</th>
+                <th>Sinopse</th>
+                
+                <th>Imagem</th>
+              </tr>
+            </thead>
+            <tbody>
+               <colgroup> 
+                <tr>
+                <td>O Poderoso Chefão</td>
+                <td>1972</td>
+                <td>Uma família mafiosa luta para estabelecer sua supremacia nos Estados Unidos depois da Segunda Guerra Mundial. Uma tentativa de assassinato deixa o chefão Vito Corleone incapacitado e força os filhos Michael e Sonny a assumir os negócios.</td>
+                <td>
+                    <center>
+                    <img
+                    src="https://br.web.img3.acsta.net/medias/nmedia/18/90/93/20/20120876.jpg"
+                    alt="Don Corleone e seus filhos"
+                    title="Família Corleone"
+                    width="100px"
+                    height="100px"
+                    </center>
+                  </td>
+               </tr>
+              </colgroup>
+              <tr>
+                <td>Três homens em conflito</td>
+                <td>1966</td>
+                <td>Durante a Guerra Civil Americana, um pistoleiro misterioso e dois estrangeiros decidem juntar suas forças para encontrar um tesouro escondido. Cada um dos homens conhece apenas uma parte da localização da fortuna, o que força essa parceria. O problema é que nenhum deles tem a intenção de dividir a riqueza.</td>
+                <td> 
+                    <center>
+                    <img
+                    src="https://http2.mlstatic.com/D_NQ_NP_800865-MLB42234342999_062020-O.jpg"
+                    alt="Três homens em conflito"
+                    title="Três homens em conflito"
+                    width="100px"
+                    height="100px"
+                </center>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+</body>
+</html>
