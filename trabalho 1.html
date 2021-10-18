@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="blabla.ico" type="image/x-icon">
+    <title>Locadora - atividade extra</title>
+    <style>
+        #info_filmes thead{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="input_titulo">Digite o título do filme</label>
+        <input type="text" id="input_titulo" />
+        <br>
+        <label for="input_ano">Digite o ano de lançamento do filme</label>
+        <input type="text" id="input_ano" />
+        <br>
+        <label for="input_sinopse">Insira a sinopse do filme</label>
+        <input type="text" id="input_sinopse" />
+        <br>
+        <label for="input_capa">Insira a capa do filme</label>
+        <input type="file" id="input_capa" accept="image/png, image/jpeg">
+        <br>
+        <input type="submit" value="Cadastrar">
+    </form>
+    <br>
+    <table border="1" id="info_filmes">
+        <thead>
+                <td width="150px">
+                    Título
+                </td>
+                <td>
+                    Ano de lançamento
+                </td>
+                <td>
+                    Sinopse
+                </td>
+                <td width="150px">
+                    Imagem
+                </td>
+        </thead>
+        <tbody>
+            <tr>
+                <td><h2>O poderoso chefão</h2></td>
+                <td><h4>1972</h4></td>
+                <td>Uma família mafiosa luta para estabelecer sua supremacia nos Estados Unidos depois da Segunda Guerra Mundial. Uma tentativa de assassinato deixa o chefão Vito Corleone incapacitado e força os filhos Michael e Sonny a assumir os negócios.</td>
+                <td><img src="https://br.web.img3.acsta.net/medias/nmedia/18/90/93/20/20120876.jpg" alt='Capa do filme "o poderoso chefão"'/></td>
+            </tr>
+            <tr>
+                <td><h2>Três homens em conflito</h2></td>
+                <td><h4>1966</h4></td>
+                <td>Durante a Guerra Civil Americana, um pistoleiro misterioso e dois estrangeiros decidem juntar suas forças para encontrar um tesouro escondido. Cada um dos homens conhece apenas uma parte da localização da fortuna, o que força essa parceria. O problema é que nenhum deles tem a intenção de dividir a riqueza.</td>
+                <td><img src="https://br.web.img2.acsta.net/medias/nmedia/18/97/53/07/20534288.jpg" alt='Capa do filme "três homens em conflito"'></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
