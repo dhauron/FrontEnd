@@ -1,0 +1,12 @@
+Estilizar com bootstrap (versão 5) o HTML desenvolvido na atividade 03 - Locadora popular. Sinta-se livre para utilizar componentes do bootstrap para estilizar o site "Locadora popular".
+
+
+* Deve-se importar o css do bootstrap
+* Deve-se utilizar os inputs do bootstrap
+* Deve-se utilizar o botão (button) do bootstrap
+* Deve-se utilizar table do bootstrap
+* Responder essa atividade como entregue até o dia 21/10/2021 e incluir o link do repositório no github.
+* Caso queira, também pode criar um arquivo style.css próprio para incluir seus estilos customizados.
+
+Dicas: 
+* Na documentação do bootstrap também existe componente de input para type="file" (upload de arquivo).

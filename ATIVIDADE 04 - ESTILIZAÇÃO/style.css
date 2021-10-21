@@ -1,0 +1,47 @@
+.cabecalho{
+    font-family: 'Bebas Neue', cursive; 
+    width: 100%;
+    height: 1%;
+    background-color: #363636;
+    color: antiquewhite;
+    font-size: 80px;
+    margin: none; 
+    padding: 10px;
+    align-content: center;
+    font-weight: bold ;
+}
+
+body{
+    background: #36363656;
+}
+
+.formulario {
+    margin: 10px 50px 50px 50px;
+    text-align: center;
+    font-size: larger;
+    
+}
+
+.borda {
+    margin: 30px 30px;
+    border-width: 10px;
+
+}
+
+h2{
+    text-align-last: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.cabeçalho-tabela{
+    text-align: center;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.tabela-borda {
+    text-align: center;
+}
+
